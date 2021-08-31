@@ -753,7 +753,7 @@
                 android:data="https://t.me/nuub1k" />
         </Preference>
 
-	    <Preference
+	<Preference
             android:id="@+id/device_phoenix"
             android:icon="@drawable/havoc_device"
             android:summary="@string/device_phoenix_summary"
@@ -761,6 +761,16 @@
             <intent
                 android:action="android.intent.action.VIEW"
                 android:data="https://t.me/blacksuan19" />
+        </Preference>
+
+        <Preference
+            android:id="@+id/device_surya"
+            android:icon="@drawable/havoc_device"
+            android:summary="@string/device_surya_summary"
+            android:title="@string/device_surya">
+            <intent
+                android:action="android.intent.action.VIEW"
+                android:data="https://t.me/Hazama25" />
         </Preference>
 
         <!--<Preference
